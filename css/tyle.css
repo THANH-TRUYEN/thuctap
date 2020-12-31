@@ -1,0 +1,206 @@
+.menu{
+  list-style: none;
+  display: flex;
+  justify-content:space-around;
+}
+.menu-link{
+  text-decoration: none;
+  font-size: 20px;
+}
+.menu-item{
+  position: relative;
+}
+.drop-menu{
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  z-index: 1;
+  min-width: 200px; 
+  top: 100%;
+  left: 0;
+  visibility: hidden;
+
+  /* opacity: 0;
+  display: none; */
+}
+.menu-item:hover .drop-menu{
+  display: block;
+  visibility: visible;
+  opacity: 1;
+  transition: 0.3s linear;
+  
+}  
+.drop-menu a{
+  color: #fff;
+  padding: 6px 5px;
+  display: block;
+  text-decoration: none;
+
+}
+.slide__img{
+  width: 100%;
+}
+.slide__title{
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  color: rgb(146, 34, 109);
+  font-size: 50px;
+  font-style: normal;
+
+}
+.slide__title_1{
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  color: rgb(228, 32, 32);
+  font-size: 50px;
+  font-style: inherit;
+}
+.slide__title_2{
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  color: rgb(224, 158, 82);
+  font-size: 50px;
+  font-style: unset;
+
+}
+.slide__title_3{
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  color: rgb(23, 41, 209);
+  font-size: 50px;
+  font-style: inherit;
+}
+.slide__title_4{
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  color: rgb(201, 86, 10);
+  font-size: 50px;
+  font-style: oblique;
+}
+.slide__title_5{
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  color: rgb(38, 147, 180);
+  font-size: 50px;
+}
+.trong{
+  margin-left: 90px;
+}
+
+.tourtrongnuoc{
+  font-size: 40px;
+  color: black;
+  text-align:center;
+  font-family:verdana;
+  margin-top: 20px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.tour{
+  display: inline-block;
+  left: 70px;
+  margin-left: 50px;
+  margin-top: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 20px;
+  list-style-type: 20px;
+}
+.ngoai{
+  margin-left: 90px;
+}
+.tournuocngoai{
+  font-size: 40px;
+  color: black;
+  text-align:center;
+  font-family:verdana;
+  margin-top: 20px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.tourngoai{
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 20px;
+  list-style-type: 5px;
+  
+}
+.chu0{
+  position: absolute;
+  text-align: center;
+  top: 2030px;
+left: 500px;
+font-size: 20px;
+color: white;
+}
+
+.chu1{
+  position: absolute;
+  border: 2px solid white;
+  border-radius: 5px;
+  border-width: medium;
+  background-color: white;
+  width: 300px;
+  height: 400px;
+  padding: 5px;
+  top: 2100px;
+  left: 15px;
+  margin-left: 50px;
+}
+.chu2{
+  position: absolute;
+  border: 2px solid white;
+  border-radius: 5px;
+  border-width: medium;
+  background-color: white;
+  width: 300px;
+  height: 400px;
+  padding: 5px;
+  top: 2100px;
+  left: 15px;
+  margin-left: 400px;
+}
+.chu3{
+  position: absolute;
+  border: 2px solid white;
+  border-radius: 5px;
+  border-width: medium;
+  background-color: white;
+  width: 300px;
+  height: 400px;
+  padding: 5px;
+  top: 2100px;
+  left: 15px;
+  margin-left: 750px;
+}
+.chu4{
+  position: absolute;
+  border: 2px solid white;
+  border-radius: 5px;
+  border-width: medium;
+  background-color: white;
+  width: 300px;
+  height: 400px;
+  padding: 5px;
+  top: 2100px;
+  left: 15px;
+  margin-left: 1100px;
+}
+.mau{
+  color: red;
+
+}
+.thongtin{
+  margin-left: 90px;
+  
+}
+
